@@ -1,4 +1,4 @@
-# Agent Workspace
+# Agent Repository Context
 
 This folder carries agent guidance and local context for this submodule.
 
