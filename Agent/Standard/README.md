@@ -1,8 +1,8 @@
 # Submodule Standard Guidance
 
-This submodule follows the canonical agent standards in the parent Flux repository. Keep comprehensive standards in the parent repo to avoid duplicated guidance drifting across submodules.
+This submodule follows the canonical agent standards in the containing product workspace. Keep comprehensive standards in the containing product workspace to avoid duplicated guidance drifting across submodules.
 
-When this submodule is checked out inside the Flux workspace, use these relative links from this file:
+When this submodule is checked out inside the product workspace, use these relative links from this file:
 
 - [Architecture](../../../../../Agent/Standard/Architecture.md)
 - [Vertical Slices And CQRS-lite](../../../../../Agent/Standard/VerticalSlicesAndCqrsLite.md)
@@ -13,11 +13,11 @@ When this submodule is checked out inside the Flux workspace, use these relative
 - [Migration Workflow](../../../../../Agent/Standard/MigrationWorkflow.md)
 - [Encoding And Line Endings](../../../../../Agent/Standard/EncodingAndLineEndings.md)
 
-Templates live in the parent repo:
+Templates live in the containing product workspace:
 
 - [Agent Instructions Template](../../../../../Agent/Template/AGENTS.md)
 - [Test Project Structure Template](../../../../../Agent/Template/TestProjectStructureTemplate.md)
 
 Use this submodule's Agent/ folder for local initiative plans, checklists, decision logs, and archive notes that explain submodule-owned changes.
 
-If this submodule is worked on outside the Flux workspace, copy in only the specific standard file needed for that task and note the parent Flux commit it came from.
+If this submodule is worked on outside the product workspace, copy in only the specific standard file needed for that task and note the source product workspace commit it came from.
