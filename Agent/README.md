@@ -4,8 +4,7 @@ This folder carries agent guidance and local context for this submodule.
 
 ## Folder Intent
 
-- `Standard/`: durable guidance copied from the parent Flux repository so agents can work inside this submodule without losing the shared conventions.
-- `Template/`: copyable templates for agent instructions and project setup.
+- `Standard/`: submodule guidance and relative links to the parent Flux repository's canonical standards.
 - `Initiative/`: active submodule-specific plans, checklists, progress notes, and decision records.
 - `Archive/`: superseded or legacy agent documents kept for historical context.
 

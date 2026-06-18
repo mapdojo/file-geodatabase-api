@@ -1,19 +1,23 @@
-# Agent Standards
+# Submodule Standard Guidance
 
-Attach only the guidance files needed for the task. These standards are split by intent so agents can carry the right context without loading one large migration guide.
+This submodule follows the canonical agent standards in the parent Flux repository. Keep comprehensive standards in the parent repo to avoid duplicated guidance drifting across submodules.
 
-## Routing
+When this submodule is checked out inside the Flux workspace, use these relative links from this file:
 
-- Clean layer ownership or dependency direction: `Architecture.md`.
-- Vertical slice structure or CQRS-lite shape: `VerticalSlicesAndCqrsLite.md`.
-- Naming, file shape, extension methods, or generic folder cleanup: `NamingAndFileShape.md`.
-- Encoding, BOM cleanup, line endings, or editor encoding metadata: `EncodingAndLineEndings.md`.
-- Test project naming or moving manual/dependency-heavy tests: `Testing.md`.
-- Blazor, ReactiveUI, Terminal TUI, or other host presentation work: `Presentation.md`.
-- Common `Apis.*` extraction or product/common ownership decisions: `SharedApisOwnership.md`.
-- Compatibility migration, shims, checklists, PR preparation, commit order, or commit messages: `MigrationWorkflow.md`.
+- [Architecture](../../../../../Agent/Standard/Architecture.md)
+- [Vertical Slices And CQRS-lite](../../../../../Agent/Standard/VerticalSlicesAndCqrsLite.md)
+- [Naming And File Shape](../../../../../Agent/Standard/NamingAndFileShape.md)
+- [Testing](../../../../../Agent/Standard/Testing.md)
+- [Presentation](../../../../../Agent/Standard/Presentation.md)
+- [Shared Apis Ownership](../../../../../Agent/Standard/SharedApisOwnership.md)
+- [Migration Workflow](../../../../../Agent/Standard/MigrationWorkflow.md)
+- [Encoding And Line Endings](../../../../../Agent/Standard/EncodingAndLineEndings.md)
 
-## Related Templates
+Templates live in the parent repo:
 
-- Agent instruction template: `../Template/AGENTS.md`.
-- Test project structure template: `../Template/TestProjectStructureTemplate.md`.
+- [Agent Instructions Template](../../../../../Agent/Template/AGENTS.md)
+- [Test Project Structure Template](../../../../../Agent/Template/TestProjectStructureTemplate.md)
+
+Use this submodule's Agent/ folder for local initiative plans, checklists, decision logs, and archive notes that explain submodule-owned changes.
+
+If this submodule is worked on outside the Flux workspace, copy in only the specific standard file needed for that task and note the parent Flux commit it came from.
